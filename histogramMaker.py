@@ -17,6 +17,5 @@ plt.title('Frequency of the Minute the Survey Was Submitted At')
 plt.xlabel('Time')
 labels = ['2:{:02d}'.format(i) for i in range(min(minuteTime),max(minuteTime))]
 plt.xticks(range(min(minuteTime),max(minuteTime)), labels, rotation='vertical')
-plt.show()
 plt.savefig('histogram.png')
-
+plt.show()
